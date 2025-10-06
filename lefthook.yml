@@ -1,0 +1,16 @@
+pre-commit:
+  parallel: true
+  commands:
+    prettier:
+      run: deno run -A npm:prettier --check .
+    lint:
+      run: deno lint
+    check:
+      run: deno task check
+    test:
+      run: deno test --allow-read
+
+commit-msg:
+  commands:
+    commitlint:
+      run: deno run -A npm:@commitlint/cli --edit {1}
