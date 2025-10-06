@@ -1,0 +1,25 @@
+{
+  "name": "@alnpir/kyaml",
+  "version": "1.0.0",
+  "exports": "./src/mod.ts",
+  "license": "MIT",
+  "nodeModulesDir": "auto",
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "js-yaml": "npm:js-yaml@^4.1.0",
+    "lefthook": "npm:lefthook@^1.13.6",
+    "prettier": "npm:prettier@^3.4.2",
+    "@commitlint/cli": "npm:@commitlint/cli@^19.0.0",
+    "@commitlint/config-conventional": "npm:@commitlint/config-conventional@^19.0.0"
+  },
+  "tasks": {
+    "test": "deno test --allow-read",
+    "check": "deno check src/mod.ts",
+    "prepare": "deno run -A npm:lefthook install",
+    "format": "deno run -A npm:prettier --write .",
+    "format:check": "deno run -A npm:prettier --check ."
+  },
+  "publish": {
+    "exclude": ["node_modules", "**/*.test.ts"]
+  }
+}
