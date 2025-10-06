@@ -1,7 +1,13 @@
 {
   "name": "@alnpir/kyaml",
   "version": "1.0.0",
-  "exports": "./src/mod.ts",
+  "exports": {
+    ".": "./src/mod.ts",
+    "./cli": "./src/cli.ts"
+  },
+  "bin": {
+    "kyaml": "./src/cli.ts"
+  },
   "license": "MIT",
   "nodeModulesDir": "auto",
   "imports": {

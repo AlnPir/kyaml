@@ -34,7 +34,32 @@ Then import:
 import { format, parse, stringify } from "@alnpir/kyaml";
 ```
 
+### CLI Tool
+
+```bash
+# Install globally
+deno install -g -A --name kyaml jsr:@alnpir/kyaml/cli
+
+# Or run directly
+deno run -A jsr:@alnpir/kyaml/cli format config.yaml
+```
+
 ## Usage
+
+### Command Line
+
+```bash
+# Format a YAML file to KYAML
+kyaml format input.yaml > output.kyaml
+
+# Validate if a file is KYAML
+kyaml validate config.kyaml
+
+# Use with pipes
+cat messy.yaml | kyaml format > clean.kyaml
+```
+
+### Programmatic
 
 ```typescript
 import { format, parse, stringify } from "jsr:@alnpir/kyaml";
