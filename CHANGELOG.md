@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/AlnPir/kyaml/compare/v1.0.1...v1.0.2) (2025-10-07)
+
+
+### Bug Fixes
+
+* add secretlin and automerge renovate ([303bed0](https://github.com/AlnPir/kyaml/commit/303bed024de068ad776fd21e8994f55617b7d779))
+
 ## [1.0.1](https://github.com/AlnPir/kyaml/compare/v1.0.0...v1.0.1) (2025-10-07)
 
 ### Bug Fixes
