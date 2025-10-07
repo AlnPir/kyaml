@@ -7,6 +7,8 @@ pre-commit:
       run: deno lint
     check:
       run: deno task check
+    secretlint:
+      run: deno run -A npm:secretlint {staged_files}
     test:
       run: deno test --allow-read
 

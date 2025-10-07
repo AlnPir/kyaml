@@ -35,6 +35,9 @@ jobs:
       - name: Type check
         run: deno task check
 
+      - name: Secretlint
+        run: deno run -A npm:secretlint "**/*"
+
       - name: Run tests
         run: deno test --allow-read
 

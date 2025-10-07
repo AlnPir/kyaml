@@ -1,10 +1,9 @@
 ## [1.0.1](https://github.com/AlnPir/kyaml/compare/v1.0.0...v1.0.1) (2025-10-07)
 
-
 ### Bug Fixes
 
-* changelog ([214efd8](https://github.com/AlnPir/kyaml/commit/214efd806cec59f89713d80b7a44b79b8457f5c8))
-* clean up CHANGELOG to remove old commits ([332743a](https://github.com/AlnPir/kyaml/commit/332743a1673b9046c4474c0db116eea65fab5750))
+- changelog ([214efd8](https://github.com/AlnPir/kyaml/commit/214efd806cec59f89713d80b7a44b79b8457f5c8))
+- clean up CHANGELOG to remove old commits ([332743a](https://github.com/AlnPir/kyaml/commit/332743a1673b9046c4474c0db116eea65fab5750))
 
 # 1.0.0 (2025-10-06)
 

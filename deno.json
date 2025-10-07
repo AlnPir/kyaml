@@ -16,7 +16,9 @@
     "lefthook": "npm:lefthook@^1.13.6",
     "prettier": "npm:prettier@^3.4.2",
     "@commitlint/cli": "npm:@commitlint/cli@^19.0.0",
-    "@commitlint/config-conventional": "npm:@commitlint/config-conventional@^19.0.0"
+    "@commitlint/config-conventional": "npm:@commitlint/config-conventional@^19.0.0",
+    "secretlint": "npm:secretlint@^8.0.0",
+    "@secretlint/secretlint-rule-preset-recommend": "npm:@secretlint/secretlint-rule-preset-recommend@^8.0.0"
   },
   "tasks": {
     "test": "deno test --allow-read",
